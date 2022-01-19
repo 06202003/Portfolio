@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yehezkiel David Setiawan</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <style>
+      .jumbotron {
+        padding: 2.5 rem 1rem;
+        background-color: lightblue;
+      }
+
+      .progress-title{
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0 10px;
+}
+.progress-outer{
+    background: black;
+    padding: 5px 60px 5px 5px;
+    border: 5px solid #bebfbf;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.progress{
+    background: #bebfbf;
+    border-radius: 20px;
+    margin: 0;
+}
+.progress .progress-bar{
+    
+    box-shadow: none;
+    animation: animate-positive 2s;
+    animation-delay: 10s;
+    background-color: gray;
+}
+.progress .progress-value{
+    font-size: 20px;
+    font-weight: 700;
+    color: #6b7880;
+    position: absolute;
+    top: 3px;
+    right: 10px;
+}
+@keyframes animate-positive{
+    0%{ width: 0; }
+}
+.card {
+    box-shadow: 0 0 1px #b3ff51, 0 0 2px #b3ff51, 0 0 6px #b3ff51, 0 0 12px #b3ff51, inset 0 0 1px #b3ff51, inset 0 0 2px #b3ff51, inset 0 0 6px #b3ff51, inset 0 0 12px #b3ff51;
+    transition: box-shadow .3s ease-out;
+    box-shadow: .8px .9px 3px grey;   
+}
+
+.card:hover{ 
+    box-shadow: 0 0 1px #b3ff51, 0 0 2px #b3ff51, 0 0 6px #b3ff51, 0 0 12px #b3ff51, inset 0 0 1px #b3ff51, inset 0 0 2px #b3ff51, inset 0 0 6px #b3ff51, inset 0 0 12px #b3ff51;
+    transition:  box-shadow .3s ease-in;
+}
+    </style>
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: aqua" >
+      <div class="container" >
+        <a class="navbar-brand" >Yehezkiel <b>David</b> Setiawan</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" href="#1">About</a>
+            <a class="nav-link" href="#2">Interests</a>
+            <a class="nav-link" href="#3">Contact Me</a>
+            <a class="nav-link" href="#top">Top</a>
+            <a class="nav-link" href="#bot">Bottom</a>
+            <li class="nav-item">
+              <div class="form-check form-switch  mt-2 me-2">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" onchange="a()" />
+                <script>
+                  function a() {
+                    var x = document.body;
+                    if (x.style.backgroundColor == 'black') {
+                      document.body.style.backgroundColor = 'white';
+                      document.getElementById('flexSwitchCheckDefault').style.backgroundColor = 'white';
+                      document.getElementById('satu').style.color = 'black';
+                      document.getElementById('dua').style.color = 'black';
+                    } else {
+                      document.body.style.backgroundColor = 'black';
+                      document.getElementById('flexSwitchCheckDefault').style.backgroundColor = 'black';
+                      document.getElementById('satu').style.color = 'white';
+                      document.getElementById('dua').style.color = 'white';
+                    }
+                  }
+                </script>
+            </li>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--Navbar-->
+    <!--Jumbotron-->
+    <div style="background-color: lightblue;">
+      <br id="top"">  
+    </div>
+    <section class="jumbotron text-center" >
+      <img src="src/david.jpg" alt="Yehezkiel David Setiawan" width="300px" class="mt-4 mb-3 rounded-circle img-thumbnail" data-aos="fade-up" data-aos-duration="1500" data-aos-mirror="true"
+      data-aos-once="false"/>
+      <h1 class="display-4" data-aos="zoom-in"  data-aos-duration="2000"  data-aos-delay="500" data-aos-mirror="true"
+      data-aos-once="false">Yehezkiel <b>David</b> Setiawan</h1>
+      <div class="lead pb-3 fs-3" data-aos="zoom-in"  data-aos-duration="2000"  data-aos-delay="500" data-aos-mirror="true"
+      data-aos-once="false"></div>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="lightblue"
+        fill-opacity="1"
+        d="M0,192L26.7,202.7C53.3,213,107,235,160,245.3C213.3,256,267,256,320,229.3C373.3,203,427,149,480,117.3C533.3,85,587,75,640,96C693.3,117,747,171,800,197.3C853.3,224,907,224,960,208C1013.3,192,1067,160,1120,170.7C1173.3,181,1227,235,1280,245.3C1333.3,256,1387,224,1413,208L1440,192L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z"
+      ></path>
+    </svg>
+    <!-- Jumbotron -->
+    <br id="1">
+    <!-- About -->
+    <div class="container">
+      <div class="row" id="satu">
+        <div class="col text-center mb-4">
+          <h2 class="fs-1" data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1000" data-aos-mirror="true"
+          data-aos-once="false">About Me</h2>
+        </div>
+        <div class="row justify-content-center fs-6">
+          <div class="col-md-4 mb-5" style="text-align: justify;"  data-aos="fade-up-right" data-aos-duration="1000" data-aos-delay="400" data-aos-mirror="true"
+          data-aos-once="false"> 
+            Hello World! Saya Yehezkiel David Setiawan, biasa dipanggil David/Vid. Saya merupakan mahasiswa jurusan Teknik Informatika di Universitas Kristen Maranatha angkatan 2021.
+          </div>
+          <div class="col-md-4"style="text-align: justify;" data-aos="fade-up-left" data-aos-duration="1000" data-aos-delay="400" data-aos-mirror="true"
+          data-aos-once="false">
+            Saya memulai belajar pemograman ketika saya berada di semester 2 bangku SMA. Saya mulai mempelajari dasar bahasa python dan java pada saat itu. Sekarang saya sedang mempelajari bahasa untuk dasar pemograman web seperti HTML, CSS, JavaScript, dan PHP.
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="lightblue"
+        fill-opacity="1"
+        d="M0,192L26.7,202.7C53.3,213,107,235,160,245.3C213.3,256,267,256,320,229.3C373.3,203,427,149,480,117.3C533.3,85,587,75,640,96C693.3,117,747,171,800,197.3C853.3,224,907,224,960,208C1013.3,192,1067,160,1120,170.7C1173.3,181,1227,235,1280,245.3C1333.3,256,1387,224,1413,208L1440,192L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"
+      ></path>
+    </svg>
+    <!-- About -->
+    <br id="2">
+    <!-- Galery -->
+    <section style="background-color: lightblue">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col mb-5" data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1000" data-aos-mirror="true"
+          data-aos-once="false">
+            <h2 class="fs-1">My Interest</h2>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-4 mb-5">
+            <div class="card" style="border-radius: 2rem;" data-aos="flip-left" data-aos-mirror="true"
+            data-aos-once="false" data-aos-duration="2000" data-aos-delay="300">
+              <img src="src/AI.jpg" class="card-img-top mt-1 ps-1 pe-1" alt="..." height="300px"style="border-radius: 2rem;" />
+              <div class="card-body">
+                <p class="card-text fs-4">Artificial Intelligence</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-5">
+            <div class="card"style="border-radius: 2rem;" data-aos="flip-up" data-aos-mirror="true"
+            data-aos-once="false" data-aos-duration="2000" data-aos-delay="300">
+              <img src="src/ML.jpg" class="card-img-top mt-1 ps-1 pe-1" alt="..." height="300px"style="border-radius:2rem;" />
+              <div class="card-body">
+                <p class="card-text fs-4">Machine Learning</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-5">
+            <div class="card"style="border-radius: 2rem;" data-aos="flip-right" data-aos-mirror="true"
+            data-aos-once="false" data-aos-duration="2000" data-aos-delay="300">
+              <img src="src/DS.jpg" class="card-img-top mt-1 ps-1 pe-1" alt="..." height="300px"style="border-radius:2rem;" />
+              <div class="card-body">
+                <p class="card-text fs-4">Data Science</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     <!-- Skills -->
+     <div class="container ">
+      <div class="row  justify-content-center">
+        <div class="row text-center">
+          <div class="col mb-5" data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1000" data-aos-mirror="true"
+          data-aos-once="false">
+            <h2 class="fs-1">Skills</h2>
+          </div>
+        </div>
+          <div class="col-md-8"  data-aos="fade-left"
+          data-aos-delay="50"
+          data-aos-duration="800"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false">
+              <h3 class="progress-title">HTML - 100%</h3>
+              <div class="progress-outer">
+                  <div class="progress">
+                      <div class="progress-bar progress-bar-striped progress-bar-danger " style="width:100%;"></div>
+                  </div>
+              </div>
+              <h3 class="progress-title">CSS - 93%</h3>
+              <div class="progress-outer">
+                  <div class="progress">
+                      <div class="progress-bar progress-bar-striped progress-bar-info" style="width:93%;"></div> 
+                  </div>
+              </div>
+              <h3 class="progress-title">JavaScript - 57%</h3>
+              <div class="progress-outer">
+                  <div class="progress">
+                      <div class="progress-bar progress-bar-striped progress-bar-danger " style="width:57%;"></div>   
+                  </div>
+              </div>
+              <h3 class="progress-title">PHP - 27%</h3>
+              <div class="progress-outer">
+                  <div class="progress">
+                      <div class="progress-bar progress-bar-striped progress-bar-info" style="width:27%;"></div>
+                  </div>
+              </div>
+              <h3 class="progress-title">Python - 18%</h3>
+              <div class="progress-outer">
+                  <div class="progress">
+                      <div class="progress-bar progress-bar-striped progress-bar-info" style="width:18%;"></div>
+                  </div>
+              </div>
+              <h3 class="progress-title">C++ - 10%</h3>
+              <div class="progress-outer">
+                  <div class="progress">
+                      <div class="progress-bar progress-bar-striped progress-bar-info" style="width:10%;"></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <script>
+    $(document).ready(function(){
+    $('.progress-value > span').each(function(){
+        $(this).prop('Counter',0).animate({
+            Counter: $(this).text()
+        },{
+            duration: 2000,
+            easing: 'swing',
+            step: function (now){
+                $(this).text(Math.ceil(now));
+            }
+        });
+    });
+});
+  </script>
+      <!-- Skills -->
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="lightblue"
+        fill-opacity="1"
+        d="M0,160L26.7,160C53.3,160,107,160,160,176C213.3,192,267,224,320,218.7C373.3,213,427,171,480,160C533.3,149,587,171,640,160C693.3,149,747,107,800,106.7C853.3,107,907,149,960,149.3C1013.3,149,1067,107,1120,112C1173.3,117,1227,171,1280,202.7C1333.3,235,1387,245,1413,250.7L1440,256L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z"
+      ></path>
+    </svg>
+    <!-- Galery -->
+    <br id="3">
+    <!-- Contact -->
+    <section>
+      <div class="container mb-5" id="dua"  data-aos="fade-up"
+      data-aos-delay="100"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false"
+      data-aos-anchor-placement="top-center">
+        <div class="row text-center">
+          <div class="col-md-12 mb-5">
+            <h2>Contact Me</h2>
+          </div>
+        </div>
+        <div class="container" id="judul1">
+          <div class="col-md-12 text-start d-flex justify-content-center">
+            <form name="contact-me">
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Name</label>
+                <input type="name" class="form-control" id="exampleInputPassword1" name="name">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
+                <div id="emailHelp" class="form-text">I'll never share your email with anyone else.</div>
+              </div>
+              <div class="mb-3">
+                <label for="disabledSelect" class="form-label">Country</label>
+                <select id="disabledSelect" class="form-select" name="country">
+                  <option>Indonesia</option>
+                  <option>Singapore</option>
+                  <option>malaysia</option>
+                  <option>Australia</option>
+                  <option>Overseas</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="floatingTextarea" class="form-label">Messages</label>
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" name="message"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" onclick="alert1()">Submit</button>
+            </form>
+            <script>
+              const scriptURL = 'https://script.google.com/macros/s/AKfycbzz6TaeQ4lm92pEWNUr-XUi13bKnO33LauAmVk4OqjLyF1822h9TzSqajK4OofuDV-Q/exec'
+              const form = document.forms['contact-me']
+            
+              form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                  .then(response => console.log('Success!', response))
+                  .catch(error => console.error('Error!', error.message))
+              })
+            </script>
+              <script>
+                function alert1(){
+                  alert("Thank You For Contacting me \nI will reply your message soon ");
+                }
+              </script>
+          </div>
+      </div>
+      </div>
+        </div>
+    </div>
+  </div>
+    </section>
+    <!-- Contact -->
+    <!-- Footer -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="aqua"
+        fill-opacity="1"
+        d="M0,256L12.6,234.7C25.3,213,51,171,76,138.7C101.1,107,126,85,152,112C176.8,139,202,213,227,213.3C252.6,213,278,139,303,101.3C328.4,64,354,64,379,69.3C404.2,75,429,85,455,112C480,139,505,181,531,170.7C555.8,160,581,96,606,90.7C631.6,85,657,139,682,144C707.4,149,733,107,758,106.7C783.2,107,808,149,834,160C858.9,171,884,149,909,149.3C934.7,149,960,171,985,176C1010.5,181,1036,171,1061,176C1086.3,181,1112,203,1137,224C1162.1,245,1187,267,1213,250.7C1237.9,235,1263,181,1288,181.3C1313.7,181,1339,235,1364,250.7C1389.5,267,1415,245,1427,234.7L1440,224L1440,320L1427.4,320C1414.7,320,1389,320,1364,320C1338.9,320,1314,320,1288,320C1263.2,320,1238,320,1213,320C1187.4,320,1162,320,1137,320C1111.6,320,1086,320,1061,320C1035.8,320,1011,320,985,320C960,320,935,320,909,320C884.2,320,859,320,834,320C808.4,320,783,320,758,320C732.6,320,707,320,682,320C656.8,320,632,320,606,320C581.1,320,556,320,531,320C505.3,320,480,320,455,320C429.5,320,404,320,379,320C353.7,320,328,320,303,320C277.9,320,253,320,227,320C202.1,320,177,320,152,320C126.3,320,101,320,76,320C50.5,320,25,320,13,320L0,320Z"
+      ></path>
+    </svg>
+    <footer style="background-color: aqua">
+      <div class="container" >
+        <div class="row text-center"  data-aos="fade-right"
+        data-aos-delay="50"
+        data-aos-duration="800"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false">
+          <div class="col">
+            <h3>Created by Yehezkiel David Setiawan</h3>
+          </div>
+        <div class="container fa-2x" align="center">
+            <a href="https://www.instagram.com/yehezkiel_.david/" target="_blank" class="ms-2" style="text-decoration: none;"><i class="fa fa-instagram"></i> </a>
+            <a href="https://github.com/YehezkielDavid06" target="_blank"  class="ms-2" style="text-decoration: none;"><i class="fa fa-github"></i> </a>
+            <a href="https://wa.me/6289507647137/" target="_blank"  class="ms-2" style="text-decoration: none;"><i class="fa fa-whatsapp"></i> </a>
+        </div>
+        <div class="mb-3" id="bot">&copy;Copyright 2021 Yehezkiel David Setiawan. All Rights Reserved.</div>
+    </footer>
+    <!-- Footer -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js">
+    </script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/TextPlugin.min.js"></script>
+  <script>
+    gsap.registerPlugin(TextPlugin);
+    gsap.from('.navbar',{ duration: 1, y: '-100%', opacity: 0, ease: 'bounce'})
+    gsap.from('.navbar-brand',{ duration: 1.5, y: '-100%', opacity: 0, ease: 'bounce',delay:0.5})
+    gsap.to('.lead',{duration: 3,delay:0.8,text:'Informatics Engineering Student'})
+  </script>
+  </body>
+</html>
