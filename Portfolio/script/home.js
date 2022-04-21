@@ -7,6 +7,7 @@ window.addEventListener('scroll', function () {
     document.getElementById('hilang3').style.visibility = 'visible';
     document.getElementById('hilang4').style.visibility = 'visible';
     document.getElementById('hilang5').style.visibility = 'visible';
+    document.getElementById('hilang6').style.visibility = 'visible';
   } else {
     nav.classList.remove('warnaheader');
     document.getElementById('hilang').style.visibility = ' hidden';
@@ -14,6 +15,7 @@ window.addEventListener('scroll', function () {
     document.getElementById('hilang3').style.visibility = 'hidden';
     document.getElementById('hilang4').style.visibility = 'hidden';
     document.getElementById('hilang5').style.visibility = 'hidden';
+    document.getElementById('hilang6').style.visibility = 'hidden';
   }
 });
 
