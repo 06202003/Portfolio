@@ -17,15 +17,15 @@
 
 <h3 align="left">Features:</h3>
 
-- [x] Responsive
- - [x] Smartphone
+- ✅ Responsive
+ - ✅ Smartphone
  - [ ] Tab(being fixed
- - [x] Desktop (Under 1440px)
-- [x] Animation
- - [x] AOS (https://michalsnik.github.io/aos/)
- - [x] Anime.JS (https://animejs.com/)
- - [x] vanta.js (https://www.vantajs.com/)
--[x] Google
- -[x] Google Maps
- -[x] Contact (Google Spreadsheet API)
+ - ✅ Desktop (Under 1440px)
+- ✅ Animation
+ - ✅ AOS (https://michalsnik.github.io/aos/)
+ - ✅ Anime.JS (https://animejs.com/)
+ - ✅ vanta.js (https://www.vantajs.com/)
+-✅ Google
+ -✅ Google Maps
+ -✅ Contact (Google Spreadsheet API)
 
