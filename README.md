@@ -16,19 +16,15 @@
 </div>
 
 <h3 align="left">Features:</h3>
-1. Responsive [Smartphone,Tab(being fixed),Desktop]
-2. Animation use AOS from https://michalsnik.github.io/aos/
-3. Wave use Anime.JS library (https://animejs.com/)
-4. 1<sup>st</sup> page background use vanta.js library (https://www.vantajs.com/)
-5. Maps Use Google Maps
-6. Contact Us use Google Spreadsheet API
-
-- [x] Design
-- [x] Mockups
-- [x] Development
-- [x] Unit testing
-- [ ] QA
-- [ ] Stage
-- [ ] Beta Testing
-- [ ] Production
+- [x] Responsive
+ - [x] Smartphone
+ - [ ] Tab(being fixed
+ - [x] Desktop (Under 1440px)
+- [x] Animation
+ - [x] AOS (https://michalsnik.github.io/aos/)
+ - [x] Anime.JS (https://animejs.com/)
+ - [x] vanta.js (https://www.vantajs.com/)
+-[x] Google
+ -[x] Google Maps
+ -[x] Contact (Google Spreadsheet API)
 
