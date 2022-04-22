@@ -19,7 +19,7 @@ body {
 /* animasi */
 .animasi {
   animation-name: rainbow;
-  animation-duration: 4s;
+  animation-duration: 3s;
 }
 @keyframes rainbow {
   0% {
