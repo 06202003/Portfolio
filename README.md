@@ -2,10 +2,12 @@
 <hr>
 <h3 align="left">Languages and Tools:</h3>
 <p align="left">
-	
+
+<div>
  <img
       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
       alt="html5" width="40" height="40" /> <p>HTML</p> <br>
+</div>
 <img
       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3"
       width="40" height="40" /> <p>CSS</p> <br>
