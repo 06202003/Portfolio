@@ -1,1 +1,2 @@
-<h1 align="center">Portfolio Website <img src="https://giphy.com/gifs/motion-graphics-animacion-cityarts-xT0Gqn9yuw8hnPGn5K" width="35"></h1>
+<h1 align="center">Portfolio Website <img src="https://media1.giphy.com/media/xT0Gqn9yuw8hnPGn5K/giphy.gif" width="35"></h1>
+
