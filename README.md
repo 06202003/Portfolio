@@ -29,5 +29,6 @@
   -✅ Google Maps
   -✅ Contact (Google Spreadsheet API)
   
-  <img src="https://media3.giphy.com/media/fv4tD2kW1PSgg/giphy.gif?cid=ecf05e47jqj7hxa2vt3ubn2jd5fszzkpgj05fgqgtyl4ca6h&rid=giphy.gif&ct=g">
-
+<div align="left">
+ <img src="https://media3.giphy.com/media/fv4tD2kW1PSgg/giphy.gif">
+</div>
