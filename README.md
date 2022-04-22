@@ -18,14 +18,14 @@
 <h3 align="left">Features:</h3>
 
 - ✅ Responsive
- - ✅ Smartphone
- - [ ] Tab(being fixed
- - ✅ Desktop (Under 1440px)
+  - ✅ Smartphone
+  - ❎ Tab(being fixed
+  - ✅ Desktop (Under 1440px)
 - ✅ Animation
- - ✅ AOS (https://michalsnik.github.io/aos/)
- - ✅ Anime.JS (https://animejs.com/)
- - ✅ vanta.js (https://www.vantajs.com/)
+  - ✅ AOS (https://michalsnik.github.io/aos/)
+  - ✅ Anime.JS (https://animejs.com/)
+  - ✅ vanta.js (https://www.vantajs.com/)
 -✅ Google
- -✅ Google Maps
- -✅ Contact (Google Spreadsheet API)
+  -✅ Google Maps
+  -✅ Contact (Google Spreadsheet API)
 
