@@ -16,6 +16,7 @@
 </div>
 
 <h3 align="left">Features:</h3>
+
 - [x] Responsive
  - [x] Smartphone
  - [ ] Tab(being fixed
