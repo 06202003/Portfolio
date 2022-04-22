@@ -23,3 +23,12 @@
 5. Maps Use Google Maps
 6. Contact Us use Google Spreadsheet API
 
+- [x] Design
+- [x] Mockups
+- [x] Development
+- [x] Unit testing
+- [ ] QA
+- [ ] Stage
+- [ ] Beta Testing
+- [ ] Production
+
