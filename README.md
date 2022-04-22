@@ -20,7 +20,7 @@
 
 <h3 align="left">Features:</h3>
 
-- ✅ Responsive
+- ✅ Responsive (Media Query)
   - ✅ Smartphone
   - ❎ Tab (being fixed)
   - ✅ Desktop (Under 1440px)
