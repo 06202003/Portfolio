@@ -1,18 +1,21 @@
-<h1 align="center">Portfolio Website <img src="https://media.giphy.com/media/YULPJoecGetvtOm1H0/giphy.gif" width="35"></h1>
+<h1 align="center">Portfolio Website <img src="https://media.giphy.com/media/YULPJoecGetvtOm1H0/giphy.gif" width="35"></h1>                                             
 <hr>
+<p align="center">
+<img src="https://media3.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" height="200px">
+</p>  
 <h3 align="left">Tools:</h3>
 <div align="left">
  <img
       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
-      alt="html5" width="40" height="40" /> 
+      alt="html5" width="60" height="60" /> 
 <img
       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3"
-      width="40" height="40" />
+      width="60" height="60" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
-      alt="bootstrap" width="40" height="40" />
+      alt="bootstrap" width="60" height="60" />
   <img
       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
-      alt="javascript" width="40" height="40" /> 
+      alt="javascript" width="60" height="60" /> 
 </div>
 
 <h3 align="left">Features:</h3>
@@ -25,11 +28,11 @@
   - ✅ AOS (https://michalsnik.github.io/aos/)
   - ✅ Anime.JS (https://animejs.com/)
   - ✅ vanta.js (https://www.vantajs.com/)
--✅ Google
-  -✅ Google Maps
-  -✅ Contact (Google Spreadsheet API)
+- ✅ Google
+  - ✅ Google Maps
+  - ✅ Contact (Google Spreadsheet API)
   
   <br>
 <p align="center">
- <img src="https://media3.giphy.com/media/fv4tD2kW1PSgg/giphy.gif">
+ <img src="https://media3.giphy.com/media/fv4tD2kW1PSgg/giphy.gif" width="400">
 </p>
