@@ -1,7 +1,7 @@
 <h1 align="center">Portfolio Website <img src="https://media.giphy.com/media/YULPJoecGetvtOm1H0/giphy.gif" width="35"></h1>
 <hr>
 <h3 align="left">Languages and Tools:</h3>
-<div align="center">
+<div align="left" style="margin-left:2rem">
  <img
       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
       alt="html5" width="40" height="40" /> 
