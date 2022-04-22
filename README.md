@@ -16,7 +16,7 @@
 </div>
 
 <h3 align="left">Features:</h3>
-<div>
+
 - ✅ Responsive
   - ✅ Smartphone
   - ❎ Tab (being fixed)
@@ -28,8 +28,7 @@
 -✅ Google
   -✅ Google Maps
   -✅ Contact (Google Spreadsheet API)
-</div>  
-
-<div align="center">
+  
+<p align="center">
  <img src="https://media3.giphy.com/media/fv4tD2kW1PSgg/giphy.gif">
-</div>
+</p>
