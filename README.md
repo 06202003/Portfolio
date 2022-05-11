@@ -12,10 +12,10 @@
       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3"
       width="60" height="60" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
-      alt="bootstrap" width="60" height="60" />
+      alt="bootstrap" width="50" height="50" />
   <img
       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
-      alt="javascript" width="60" height="60" /> 
+      alt="javascript" width="50" height="50" /> 
 </div>
 
 <h3 align="left">Features:</h3>
