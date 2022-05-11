@@ -22,7 +22,7 @@
 
 - ✅ Responsive (Media Query)
   - ✅ Smartphone
-  - ❎ Tab (being fixed)
+  - ✅ Tab (being fixed)
   - ✅ Desktop (Under 1440px)
 - ✅ Animation
   - ✅ AOS (https://michalsnik.github.io/aos/)
