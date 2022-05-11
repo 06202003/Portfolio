@@ -4,7 +4,8 @@ body {
 }
 
 #preloader {
-  background: #100c0d url(../src/saweria.png) no-repeat center;
+  background: #100c0d url(../src/loader.gif) no-repeat center;
+  background-size: 30%;
   height: 100vh;
   width: 100%;
   position: fixed;
@@ -20,7 +21,7 @@ body {
 /* animasi */
 .animasi {
   animation-name: rainbow;
-  animation-duration: 3s;
+  animation-duration: 5s;
 }
 @keyframes rainbow {
   0% {
