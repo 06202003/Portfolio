@@ -51,30 +51,30 @@ body {
 }
 .container3 {
   height: 700px;
-  background-color: #3f3f3a;
+  background-color: #181818;
   color: white;
 }
 .container4 {
   height: 1000px;
-  background-color: #013328;
+  background-color: #141824;
 }
 .container5 {
-  height: 1300px;
-  background-color: #3f3f3a;
+  height: auto;
+  background-color: #181818;
   color: white;
 }
 .container6 {
-  height: 1200px;
-  background-color: #013328;
+  height: auto;
+  background-color: #141824;
   color: white;
 }
 .container7 {
   height: 800px;
-  background-color: #3f3f3a;
+  background-color: #181818;
   color: white;
 }
 .warnaheader {
-  background-color: #212529;
+  background-color: transparent;
 }
 .sticky-right {
   position: fixed;
@@ -119,6 +119,10 @@ body {
   margin-top: 7px;
 }
 
+.gambarsertif {
+  width: 600px;
+  height: 400px;
+}
 .gambar1 {
   width: 500px;
   height: 400px;
@@ -261,6 +265,16 @@ body {
   font-size: 1.6em;
   text-align: justify;
 }
+
+.youtube {
+  margin: 0 auto;
+  padding-top: 4rem;
+  margin-bottom: 4rem;
+  width: 100%;
+  max-width: 600px;
+  height: 400px;
+}
+
 @media screen and (min-width: 319px) and (max-width: 767px) {
   .container1 {
     height: 1000px;
@@ -268,24 +282,47 @@ body {
   }
   .container4 {
     height: 1300px;
-    background-color: #013328;
+    background-color: #141824;
   }
   .container5 {
-    height: 2400px;
-    background-color: #3f3f3a;
+    height: auto;
+    background-color: #181818;
   }
   .container6 {
-    height: 1400px;
-    background-color: #013328;
+    height: auto;
+    background-color: #141824;
   }
   .container7 {
     height: 1100px;
-    background-color: #3f3f3a;
+    background-color: #181818;
   }
   .txt1 {
     font-size: 1em;
     text-align: justify;
     padding-right: 2rem;
+  }
+  .embed {
+    margin: 0 auto;
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  .gambarsertif {
+    width: 300px;
+    height: 300px;
+  }
+  .youtube {
+    margin: 0 auto;
+    padding-top: 4rem;
+    margin-bottom: 4rem;
+    width: 100%;
+    max-width: 600px;
+    height: 250px;
+  }
+  .gambarsertif {
+    width: 300px;
+    height: 200px;
+    margin-left: 6%;
+    margin-bottom: 1rem;
   }
   .gambar {
     border-radius: 30px;
@@ -316,10 +353,11 @@ body {
     margin-top: 2rem;
   }
   .gambar3 {
+    margin: 0 auto;
+  }
+  .gambargator {
     width: 300px;
     height: 300px;
-    margin-left: 6%;
-    margin-bottom: 0.5rem;
   }
   .gambar4 {
     width: 300px;
@@ -355,22 +393,22 @@ body {
   .container4 {
     text-align: center;
     height: 1300px;
-    background-color: #013328;
+    background-color: #141824;
   }
   .container5 {
     text-align: center;
     height: 1700px;
-    background-color: #3f3f3a;
+    background-color: #181818;
   }
   .container6 {
     text-align: center;
     height: 1400px;
-    background-color: #013328;
+    background-color: #141824;
   }
   .container7 {
     text-align: center;
     height: 700px;
-    background-color: #3f3f3a;
+    background-color: #181818;
   }
   .txt1 {
     text-align: center;
@@ -401,10 +439,11 @@ body {
     margin-top: 1rem;
   }
   .gambar3 {
-    text-align: center;
+    margin: 0 auto;
+  }
+  .gambargator {
     width: 300px;
     height: 300px;
-    margin-top: -2rem;
   }
   .gambar4 {
     text-align: center;
@@ -428,6 +467,10 @@ body {
   .contactus {
     margin-top: -1rem;
   }
+  .gambargator {
+    width: 300px;
+    height: 300px;
+  }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
   .container1 {
@@ -436,19 +479,19 @@ body {
   }
   .container4 {
     height: 1000px;
-    background-color: #013328;
+    background-color: #141824;
   }
   .container5 {
-    height: 1200px;
-    background-color: #3f3f3a;
+    height: auto;
+    background-color: #181818;
   }
   .container6 {
-    height: 800px;
-    background-color: #013328;
+    height: auto;
+    background-color: #141824;
   }
   .container7 {
-    height: 700px;
-    background-color: #3f3f3a;
+    height: auto;
+    background-color: #181818;
   }
   .txt1 {
     font-size: 1.5em;
@@ -456,23 +499,26 @@ body {
   }
   .gambar {
     border-radius: 30px;
-    width: 450px;
-    height: 450px;
+    width: auto;
+    max-width: 350px;
+    height: 350px;
   }
   .gambarsema {
     border-radius: 30px;
-    width: 400px;
-    height: 400px;
+    max-width: 350px;
+    height: 350px;
   }
   .gambar1 {
     margin-top: 2rem;
-    width: 450px;
-    height: 400px;
+    max-width: 350px;
+    height: 350px;
   }
   .gambar3 {
+    margin: 0 auto;
+  }
+  .gambargator {
     width: 300px;
     height: 300px;
-    margin-top: -2rem;
   }
   .gambar4 {
     width: 300px;
@@ -492,5 +538,13 @@ body {
   }
   .contactus {
     margin-top: -1rem;
+  }
+  .gambargator {
+    width: 300px;
+    height: 300px;
+  }
+  .gambarsertif {
+    width: 400px;
+    height: 300px;
   }
 }
