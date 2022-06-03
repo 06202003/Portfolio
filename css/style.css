@@ -1,10 +1,11 @@
 body {
   font-family: 'Noto Sans JP', sans-serif;
   scroll-behavior: smooth;
+  background-color: #181818;
 }
 
 #preloader {
-  background: #100c0d url(../src/loader.gif) no-repeat center;
+  background: #181818 url(../src/YZ.gif) no-repeat center;
   background-size: 30%;
   height: 100vh;
   width: 100%;
@@ -14,7 +15,7 @@ body {
   display: flex;
   justify-content: center;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 50px;
   pointer-events: none;
   transition: all 1s ease;
 }
@@ -88,6 +89,12 @@ body {
 .aw {
   padding-left: 3rem;
 }
+.discrot {
+  width: 100%;
+  max-width: 300px;
+  height: 500px;
+}
+
 .tengah {
   position: relative;
   top: 50%;
@@ -380,6 +387,11 @@ body {
   .sticky-right {
     visibility: hidden;
   }
+  .discrot {
+    width: 100%;
+    max-width: 300px;
+    height: 400px;
+  }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
   .sticky-right {
@@ -422,6 +434,7 @@ body {
     width: 250px;
     height: 250px;
     margin-left: 6%;
+    margin-top: 2rem;
     margin-bottom: 1rem;
   }
   .gambarsema {
@@ -470,6 +483,11 @@ body {
   .gambargator {
     width: 300px;
     height: 300px;
+  }
+  .discrot {
+    width: 100%;
+    max-width: 300px;
+    height: 500px;
   }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
@@ -546,5 +564,10 @@ body {
   .gambarsertif {
     width: 400px;
     height: 300px;
+  }
+  .discrot {
+    width: 100%;
+    max-width: 300px;
+    height: 500px;
   }
 }
