@@ -1,0 +1,599 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+.navi {
+  background-color: skyblue;
+}
+.logo-size {
+  width: 50px;
+  height: 50px;
+}
+.hero {
+  height: 100vh;
+  background-color: skyblue;
+}
+
+.ukur {
+  height: 80vh;
+  width: 100%;
+}
+
+.judul_awal {
+  font-size: 3.5em;
+}
+.jelas {
+  text-align: justify;
+}
+.logo_bs {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.button-lanjut {
+  display: inline-block;
+  padding: 12px 24px;
+  border: 2px solid gray;
+  border-radius: 4px;
+  transition: all 0.2s ease-in;
+  position: relative;
+  overflow: hidden;
+  font-size: 19px;
+  color: black;
+  z-index: 1;
+  background-color: #ffd4b1;
+  text-decoration: none;
+}
+
+.button-lanjut:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.25);
+  top: 100%;
+  width: 140%;
+  height: 180%;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+  display: block;
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+
+.button-lanjut:after {
+  content: '';
+  position: absolute;
+  left: 55%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.45);
+  top: 180%;
+  width: 160%;
+  height: 190%;
+  background-color: #fcadb0;
+  border-radius: 50%;
+  display: block;
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+
+.button-lanjut:hover {
+  color: white;
+  font-weight: 600;
+  border: 2px solid white;
+}
+
+.button-lanjut:hover:before {
+  top: -35%;
+  background-color: #fcadb0;
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+.button-lanjut:hover:after {
+  top: -45%;
+  background-color: #fcadb0;
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+.vid {
+  height: 100vh;
+  background-color: whitesmoke;
+}
+.judul {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-top: 3rem;
+}
+.vid-ukur {
+  width: 100%;
+  height: 600px;
+}
+.pjlsn {
+  height: auto;
+  background-color: whitesmoke;
+}
+.peringatan {
+  background-color: red;
+  width: 100%;
+  height: 100px;
+  border-radius: 15px;
+}
+.peringat {
+  font-size: 1.375em;
+  color: white;
+}
+.warning {
+  width: 100%;
+  height: auto;
+  max-width: 75px;
+  max-height: 75px;
+}
+.justify {
+  text-align: justify;
+}
+.right {
+  text-align: right;
+}
+.bs1 {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.cpsin {
+  height: auto;
+  border-top: 4px inset black;
+}
+
+.bord-cont {
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+.faq {
+  height: auto;
+}
+
+/* Copas Bootstrap */
+pre {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  overflow: auto;
+  font-size: 0.875em;
+}
+.highlight pre code {
+  font-size: inherit;
+  color: #212529;
+  word-wrap: normal;
+}
+pre code {
+  font-size: inherit;
+  color: inherit;
+  word-break: normal;
+}
+code {
+  font-size: 0.875em;
+  color: var(--bs-code-color);
+  word-wrap: break-word;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: var(--bs-font-monospace);
+  font-size: 1em;
+}
+.cp {
+  color: red;
+}
+:root {
+  --base00: #fff;
+  --base01: #f5f5f5;
+  --base02: #c8c8fa;
+  --base03: #565c64;
+  --base04: #030303;
+  --base05: #333;
+  --base06: #fff;
+  --base07: #9a6700;
+  --base08: #bc4c00;
+  --base09: #087990;
+  --base0A: #795da3;
+  --base0B: #183691;
+  --base0C: #183691;
+  --base0D: #795da3;
+  --base0E: #a71d5d;
+  --base0F: #333;
+}
+.hl {
+  background-color: var(--base02);
+}
+.c {
+  color: var(--base03);
+}
+.err {
+  color: var(--base08);
+}
+.k {
+  color: var(--base0E);
+}
+.l {
+  color: var(----base09);
+}
+.n {
+  color: var(--base08);
+}
+.o {
+  color: var(--base05);
+}
+.p {
+  color: var(--base05);
+}
+.cm {
+  color: var(--base04);
+}
+.cp {
+  color: var(--base08);
+}
+.c1 {
+  color: var(--base03);
+}
+.cs {
+  color: var(--base04);
+}
+.gd {
+  color: var(--base08);
+}
+.ge {
+  font-style: italic;
+}
+.gh {
+  font-weight: 600;
+  color: #fff;
+}
+.gi {
+  color: var(--bs-success);
+}
+.gp {
+  font-weight: 600;
+  color: var(--base04);
+}
+.gs {
+  font-weight: 600;
+}
+.gu {
+  font-weight: 600;
+  color: var(--base0C);
+}
+.kc {
+  color: var(--base0E);
+}
+.kd {
+  color: var(--base0E);
+}
+.kn {
+  color: var(--base0C);
+}
+.kp {
+  color: var(--base0E);
+}
+.kr {
+  color: var(--base0E);
+}
+.kt {
+  color: var(--base0A);
+}
+.ld {
+  color: var(--base0C);
+}
+.m {
+  color: var(--base09);
+}
+.s {
+  color: var(--base0C);
+}
+.na {
+  color: var(--base0A);
+}
+.nb {
+  color: var(--base05);
+}
+.nc {
+  color: var(--base07);
+}
+.no {
+  color: var(--base08);
+}
+.nd {
+  color: var(--base07);
+}
+.ni {
+  color: var(--base08);
+}
+.ne {
+  color: var(--base08);
+}
+.nf {
+  color: var(--base0B);
+}
+.nl {
+  color: var(--base05);
+}
+.nn {
+  color: var(--base0A);
+}
+.nx {
+  color: var(--base0A);
+}
+.py {
+  color: var(--base08);
+}
+.nt {
+  color: var(--base08);
+}
+.nv {
+  color: var(--base08);
+}
+.ow {
+  color: var(--base0C);
+}
+.w {
+  color: #fff;
+}
+.mf {
+  color: var(--base09);
+}
+.mh {
+  color: var(--base09);
+}
+.mi {
+  color: var(--base09);
+}
+.mo {
+  color: var(--base09);
+}
+.sb {
+  color: var(--base0C);
+}
+.sc {
+  color: #fff;
+}
+.sd {
+  color: var(--base04);
+}
+.s2 {
+  color: var(--base0C);
+}
+.se {
+  color: var(--base09);
+}
+.sh {
+  color: var(--base0C);
+}
+.si {
+  color: var(--base09);
+}
+.sx {
+  color: var(--base0C);
+}
+.sr {
+  color: var(--base0C);
+}
+.s1 {
+  color: var(--base0C);
+}
+.ss {
+  color: var(--base0C);
+}
+.bp {
+  color: var(--base05);
+}
+.vc {
+  color: var(--base08);
+}
+.vg {
+  color: var(--base08);
+}
+.vi {
+  color: var(--base08);
+}
+.il {
+  color: var(--base09);
+}
+.m + .o {
+  color: var(--base03);
+}
+.language-sh .c {
+  color: var(--base03);
+}
+/* Carousel */
+
+.brands {
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.brands_slider_container {
+  height: 120px;
+  border: solid 2px black;
+  border-radius: 15px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+  padding-bottom: 130px;
+  background: #fff;
+}
+
+.brands_slider {
+  height: 100%;
+}
+
+.brands_item {
+  height: 100%;
+  opacity: 0.3;
+}
+
+.brands_item img {
+  max-width: 100%;
+}
+
+.brands_nav {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding: 5px;
+  cursor: pointer;
+}
+
+.brands_nav i {
+  color: #e5e5e5;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.brands_nav:hover i {
+  color: #676767;
+}
+
+.brands_prev {
+  left: 40px;
+}
+
+.brands_next {
+  right: 40px;
+}
+
+.brand-size {
+  width: 100%;
+  height: auto;
+  max-width: 100px;
+  max-height: 75px;
+  filter: grayscale(100%);
+}
+.logo-size {
+  height: 50px;
+  width: 50px;
+  margin-right: 0;
+}
+.judul-tengah {
+  font-size: 1.75em;
+}
+.gelombang {
+  background-color: whitesmoke;
+  margin-top: -6rem;
+  margin-bottom: -2rem;
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+  .logo-size {
+    height: 40px;
+    width: 40px;
+    margin-right: 0;
+  }
+
+  .hehe {
+    height: auto;
+  }
+  .judul_awal {
+    font-size: 3em;
+    text-align: center;
+  }
+  .jelas {
+    font-size: 0.75em;
+    text-align: center;
+  }
+  .judul-tengah {
+    font-size: 1.25em;
+    text-align: center;
+  }
+  .button-lanjut {
+    display: inline-block;
+    padding: 12px 24px;
+    border: 2px solid gray;
+    border-radius: 4px;
+    transition: all 0.2s ease-in;
+    position: relative;
+    overflow: hidden;
+    font-size: 12px;
+    color: black;
+    z-index: 1;
+    background-color: #ffd4b1;
+    text-decoration: none;
+    margin-bottom: 2em;
+    margin-top: 1em;
+    width: 100%;
+    text-align: center;
+  }
+  .vid {
+    height: auto;
+    background-color: whitesmoke;
+  }
+  .vid-ukur {
+    width: 100%;
+    height: 200px;
+    max-width: 100vw;
+  }
+  .gelombang {
+    background-color: whitesmoke;
+    margin-top: 0rem;
+    margin-bottom: -2rem;
+  }
+  .peringatan {
+    background-color: red;
+    width: 100%;
+    height: auto;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    border-radius: 15px;
+  }
+  .peringat {
+    font-size: 1em;
+    color: white;
+    text-align: center;
+  }
+  .justify {
+    text-align: justify;
+    font-size: 1em;
+    padding-top: 1em;
+  }
+  .nankanan {
+    float: right;
+  }
+  .bord-cont {
+    border: 2px solid black;
+    border-radius: 15px;
+  }
+  .test {
+    font-size: 0.5em;
+  }
+  .judul {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-top: 3rem;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+  .brands_slider_container {
+    height: 120px;
+    border: solid 2px black;
+    border-radius: 15px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+    padding-bottom: 130px;
+    background: #fff;
+  }
+}

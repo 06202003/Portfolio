@@ -1,527 +1,351 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Yehezkiel David Setiawan</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="css/style.css" />
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tutorial YZ</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style/style.css" />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+     <!-- Carousel -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" />
+    <!-- Jquery -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
+    <!-- FontAwesome -->
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
     />
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">  
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap" rel="stylesheet">
-    <!-- fonts -->
-    <!-- Icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="src/favicon-32x32.png">
-    <!-- Icon -->
-    <script src="script/anime.min.js"></script>
-  </head>
+</head>
 
-  <body>
-    <!-- Loading Page -->
-    <div id="preloader" class="">
-      <h1>Selamat Datang! <br> Welcome! </h1>
-    </div>
-    <!-- Loading Page -->
+<body>
+    <section class="hero" id="hero">
+        <section class="navi">
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid ">
+                    <div class="row">
 
-    <!-- Discord Modal -->
-    <div class="modal fade" id="modal1" tabindex="1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">YZ's Discord Channel</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body mx-auto">
-            <iframe class="discrot" src="https://discord.com/widget?id=973824335951302710&theme=dark"  allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>          <div class="modal-footer">
-          </div>
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Discord Modal -->
-
-    <!-- Landing Page -->
-    <div class="container1 " id="bg1">
-      <span style="visibility: hidden">.</span>
-      <!-- Nav -->
-    <div >
-      <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="z-index: 10;">
-        <div class="container credition">
-          <a class="navbar-brand fs-2" href="#" data-aos="fade-down" data-aos-offset="500" data-aos-duration="1000" data-aos-delay="50"> いらしゃいませ </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item" id="hilang">
-                <a class="nav-link fs-5" href="#wkwk" style="color: white; font-size: 1em;" > About Me </a>
-              </li>
-              <li class="nav-item" id="hilang4">
-                <a class="nav-link fs-5" href="#edu" style="color: white; font-size: 1em;" > Education </a>
-              </li>
-              <li class="nav-item" id="hilang5">
-                <a class="nav-link fs-5" href="#exp" style="color: white; font-size: 1em;" > Experience </a>
-              </li>
-              <li class="nav-item" id="hilang6">
-                <a class="nav-link fs-5" href="#skill" style="color: white; font-size: 1em; "> Skills </a>
-              </li>
-              <li class="nav-item" id="hilang3">
-                <a class="nav-link fs-5" href="#projects" style="color: white; font-size: 1em;"> Projects</a>
-              </li>
-              <li class="nav-item" id="hilang1">
-                <a class="nav-link fs-5" href="#contact" style="color: white; font-size: 1em; "> Say Hii! </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <div class="sticky-right text-white">
-        <div class="tengah">
-          <a href="https://github.com/YehezkielDavid06" target="_blank" > <i class="fa-brands fa-github fa-3x py-3" style="color:#cc8b65;"></i></a> <br />
-          <a href="https://www.linkedin.com/in/yehezkiel-david-setiawan" target="_blank"><i class="fa-brands fa-linkedin fa-3x py-3" style="color:#cc8b65;"></i></a><br />
-          <a href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=yehezkieldavid2006@gmail.com&tf=1" target="_blank"><i class="fa-brands fa-google fa-3x py-3" style="color:#cc8b65;"></i></a><br />
-          <a href="https://www.instagram.com/syntax._error/" target="_blank"><i class="fa-brands fa-instagram fa-3x py-3" style="color:#cc8b65;"></i></a><br />
-          <a href="https://discordapp.com/users/705312106488135681" target="_blank"><i class="fa-brands fa-discord fa-2x py-3" style="color:#cc8b65;"></i></a><br />
-
-        </div>
-      </div>
-      <!-- End Nav -->
-      <div class="container container2" id="home">
-        <div class="row text-white">
-          <div class="col-md-4 order-sm-1 align-self-center justify-content-md-center" id="animate" data-aos="fade-down" data-aos-duration="1000" data-aos-mirror="true" data-aos-once="false">
-            <img src="src/david.jpg" alt="Information" class="gambar align-self-center justify-content-md-center" />
-          </div>
-          <div class="col-md-6 align-self-center justify-content-md-center awal" >
-            <div class="pt-3" data-aos="fade-up" data-aos-duration="1500" data-aos-mirror="true" data-aos-once="false">
-            <h5 style="font-family: 'Noto Sans JP', sans-serif;">-I'm</h5>
-            <h1 style="font-size: 3.8em;font-family: 'Noto Sans JP', sans-serif;">Yehezkiel <span style="color: #cc8b65;font-weight: bolder;">David</span> Setiawan</h1>
-            <h4 class="pt-4" style="font-family: 'Noto Sans JP', sans-serif;">Information Technology Student</h4>
-            <h2 style="font-family: 'Noto Sans JP', sans-serif;">Maranatha Christian University</h2>
-            <a type="button" class="btn btn-outline-light mt-3 btn-lg" href="#wkwk" style="font-family: 'Noto Sans JP', sans-serif;">About Me</a>
-            <button type="button" class="btn  btn-outline-light mt-3 btn-lg ms-3" data-bs-toggle="modal" data-bs-target="#modal1">
-              Discord
-            </button>
-            </div>
-          </div>
-          <div class="col-md-1"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-    <!-- End Landing Page -->
-
-    <!-- Pembatas -->
-    <svg class="wave-top"  viewBox="0 0 1200 250" style="background-color: #181818;">
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 108.306L50 114.323C100 120.34 200 132.374 300 168.476C400 204.578 500 264.749 600 246.698C700 228.647 800 132.374 900 108.306C1000 84.2382 1100 132.374 1150 156.442L1200 180.51V-8.5451e-06H1150C1100 -8.5451e-06 1000 -8.5451e-06 900 -8.5451e-06C800 -8.5451e-06 700 -8.5451e-06 600 -8.5451e-06C500 -8.5451e-06 400 -8.5451e-06 300 -8.5451e-06C200 -8.5451e-06 100 -8.5451e-06 50 -8.5451e-06H0V108.306Z" fill="#141824"/>
-    </svg>
-    <!-- End Pembatas -->
-    
-    <!-- Section 1 -->
-    <section class="container3">
-        <div class="container">
-            <span id="wkwk" style="padding-top: 3rem;visibility: hidden;">.</span>
-              <div class="row  pb-5" style="padding-top: 10%;">
-                  <div class="col-lg-6 col-md-12 align-self-center justify-content-md-center ps-5 " data-aos="fade-down" data-aos-duration="1000" data-aos-mirror="true" data-aos-once="false">
-                      <h1 class=" pb-3" style="font-size: 3em;  color: #cc8b65;">About Me</h1>
-                      <h5 class="txt1"">I am an Information Technology Student majoring in Informatics Engineering at Maranatha Christian University. I am interested in Web Development, Machine Learning, and Data Science. I still learned a lot to develop my programming skills.</h5>
-                  </div>
-                  <div class="col-lg-1"></div>
-                  <div class=" col-lg-4 col-md-12">
-                      <img src="src/coding1.gif" class="gambar1 align-self-center justify-content-md-center">
-                  </div>
-              </div>
-        </div>
-    </section>
-    <!-- End Section 1 -->
-
-    <!-- Pembatas -->
-      <svg class="wave-top"  viewBox="0 0 1200 250" style="background-color: #141824;">
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 108.306L50 114.323C100 120.34 200 132.374 300 168.476C400 204.578 500 264.749 600 246.698C700 228.647 800 132.374 900 108.306C1000 84.2382 1100 132.374 1150 156.442L1200 180.51V-8.5451e-06H1150C1100 -8.5451e-06 1000 -8.5451e-06 900 -8.5451e-06C800 -8.5451e-06 700 -8.5451e-06 600 -8.5451e-06C500 -8.5451e-06 400 -8.5451e-06 300 -8.5451e-06C200 -8.5451e-06 100 -8.5451e-06 50 -8.5451e-06H0V108.306Z" fill="#181818"/>
-    </svg>
-    <!-- End Pembatas -->
-
-    <!-- Section 2 -->
-    <section class="container4">
-      <span id="edu" style="padding-top: 3rem;visibility: hidden;">.</span>
-      <div class="container" style="padding-top: 2rem;">
-        <h1 style="text-align: center; font-size: 3em; padding-bottom: 4rem;  color: #cc8b65;" data-aos="fade-down" data-aos-duration="1000" data-aos-mirror="true" data-aos-once="false">Education</h1>
-          <div class="main-timeline">
-            <div class="timeline left" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" data-aos-mirror="true" data-aos-once="false">
-              <div class="card">
-                <div class="card-body p-4">
-                  <h4>2021-Now</h4>
-                  <h2>Maranatha Christian University</h1>
-                  <h5>Informatics Engineering Undergraduate Program</h5>
-                </div>
-              </div>
-            </div>
-            <div class="timeline right" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" data-aos-mirror="true" data-aos-once="false">
-              <div class="card">
-                <div class="card-body p-4">
-                  <h4>2018-2021</h4>
-                  <h2>SMAK 3 BPK PENABUR Bandung</h1>
-                  <h5>High School</h5>
-                </div>
-              </div>
-            </div>
-            <div class="timeline left" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-mirror="true" data-aos-once="false">
-              <div class="card">
-                <div class="card-body p-4">
-                  <h4>2015-2018</h4>
-                  <h2>SMPN 1 Cimahi</h1>
-                  <h5>Junior High School</h5>
-                </div>
-              </div>
-            </div>
-            <div class="timeline right" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" data-aos-mirror="true" data-aos-once="false">
-              <div class="card">
-                <div class="card-body p-4">
-                  <h4>2009-2015</h4>
-                  <h2>SDK BPK PENABUR Cimahi</h1>
-                  <h5>Primary School</h5>
-                </div>
-              </div>
-            </div>
-          </div>
-      </div>
-    </section>
-    <!-- End Section 2 -->
-
-    <!-- Pembatas -->
-    <svg class="wave-top" viewBox="0 0 1200 250" style="background-color: #181818;padding-top: -10rem;">
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M0 108.306L50 114.323C100 120.34 200 132.374 300 168.476C400 204.578 500 264.749 600 246.698C700 228.647 800 132.374 900 108.306C1000 84.2382 1100 132.374 1150 156.442L1200 180.51V-8.5451e-06H1150C1100 -8.5451e-06 1000 -8.5451e-06 900 -8.5451e-06C800 -8.5451e-06 700 -8.5451e-06 600 -8.5451e-06C500 -8.5451e-06 400 -8.5451e-06 300 -8.5451e-06C200 -8.5451e-06 100 -8.5451e-06 50 -8.5451e-06H0V108.306Z" fill="#141824"/>
-    </svg>
-    <!-- End Pembatas -->
-
-    <!-- Section 3 -->
-    <section class="container5">
-      <span id="exp" style="padding-top: 3rem;visibility: hidden;">.</span>
-      <h1 style="text-align: center; font-size: 3em; padding-bottom: 4rem; padding-top: 2rem;  color: #cc8b65;"  data-aos="fade-down" data-aos-duration="1000" data-aos-mirror="true" data-aos-once="false"> Experience</h1>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 col-md-12 align-self-center justify-content-md-center aw " data-aos="fade-down" data-aos-duration="1000"  data-aos-delay="100" data-aos-mirror="true" data-aos-once="false"> 
-            <h1><b>SEMAFIT</b></h1>
-            <h1>Senat Mahasiswa <br>Fakultas Teknologi Informasi</h1>
-            <h3>Academic Coordinator</h3>
-            <h5>2022-2023</h5>
-          </div>
-          <div class="col-lg-1">
-          </div>
-          <div class="col-lg-5 col-md-12">
-            <a><img src="src/sema.png" class="gambarsema"></a>
-          </div>
-        </div>
-        <div class="row mt-5">
-          
-          <div class="col-lg-6 col-md-12 align-self-center justify-content-md-center aw order-1" data-aos="fade-down" data-aos-duration="1000"  data-aos-delay="100" data-aos-mirror="true" data-aos-once="false"> 
-            <h1><b>Volunteer</b></h1>
-            <h1 class="fs-2">IATOP & Fakultas Teknologi Informasi Universitas Kristen Maranatha</h1>
-            <h3>Data Entry Committee</h3>
-            <h5>13<sup>th</sup> February 2022 </h5>
-          </div>
-          
-          <div class="col-lg-5 col-md-12">
-            <a><img src="src/Sertifikat Vaksinasi Booster IATOP - Yehezkiel David Setiawan.jpg" class="gambarsertif"></a>
-          </div>
-          <div class="col-lg-1">
-          </div>
-        </div>
-      </div>
-      <span id="skill" style="padding-top: 3rem;visibility: hidden;">.</span>
-      <h1 style="text-align: center; font-size: 2.5em; padding-bottom: 2rem; padding-top: 1rem;  color: #cc8b65;"  data-aos="fade-down" data-aos-duration="1000" data-aos-mirror="true" data-aos-once="false"> Skills</h1>
-      <div class="container">
-        <div class="row d-flex justify-content-center">
-          <div class="col-lg-2 col-md-4 text-center skilltulis">
-            <img class="skills" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600" data-aos-mirror="true" data-aos-once="false" src="src/html.svg" alt="HTML">
-            <h1 class="fs-2 "  data-aos="fade-down" data-aos-duration="1500" data-aos-delay="1500" data-aos-mirror="true" data-aos-once="false">HTML</h1>
-          </div>
-          <div class="col-lg-2 col-md-4 text-center skilltulis">
-            <img class="skills" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600" data-aos-mirror="true" data-aos-once="false" src="src/css.png" alt="CSS">
-            <h1 class="fs-2 " data-aos="fade-down" data-aos-duration="1500" data-aos-delay="1500" data-aos-mirror="true" data-aos-once="false">CSS</h1>
-          </div>
-          <div class="col-lg-2 col-md-4 text-center skilltulis">
-            <img class="skills" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600" data-aos-mirror="true" data-aos-once="false" src="src/javascript.svg" alt="Javascript">
-            <h1 class="fs-2 " data-aos="fade-down" data-aos-duration="1500" data-aos-delay="1500" data-aos-mirror="true" data-aos-once="false">Javascript</h1>
-          </div>
-          <div class="col-lg-2 col-md-4 text-center skilltulis">
-            <img class="skills" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600" data-aos-mirror="true" data-aos-once="false" src="src/bootstrap.svg" alt="Bootstrap">
-            <h1 class="fs-2 " data-aos="fade-down" data-aos-duration="1500" data-aos-delay="1500" data-aos-mirror="true" data-aos-once="false">Bootstrap</h1>
-          </div>
-          <div class="col-lg-2 col-md-4 text-center skilltulis">
-            <img class="skills" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600" data-aos-mirror="true" data-aos-once="false" src="src/python.svg" alt="Python">
-            <h1 class="fs-2 " data-aos="fade-down" data-aos-duration="1500" data-aos-delay="1500" data-aos-mirror="true" data-aos-once="false">Python</h1>
-          </div>
-        </div>
-      </div>
-      <h1 style="text-align: center; font-size: 2.5em; padding-bottom: 1rem; padding-top: 1rem;  color: #cc8b65;"  data-aos="fade-down" data-aos-duration="1000" data-aos-mirror="true" data-aos-once="false"> Coming Soon</h1>
-      <div class="container">
-        <div class="row d-flex justify-content-center">
-          <div class="col-lg-2 col-md-4 text-center skilltulis">
-            <img class="skills soon" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600" data-aos-mirror="true" data-aos-once="false" src="src/react.svg" alt="HTML">
-            <h1 class="fs-2" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="1500" data-aos-mirror="true" data-aos-once="false">React</h1>
-          </div>
-          <div class="col-lg-2 col-md-4 text-center skilltulis">
-            <img class="skills soon" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600" data-aos-mirror="true" data-aos-once="false" src="src/tailwind.svg" alt="CSS">
-            <h1 class="fs-2" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="1500" data-aos-mirror="true" data-aos-once="false">Tailwind</h1>
-          </div>
-          <div class="col-lg-2 col-md-4 text-center skilltulis">
-            <img class="skills soon" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600" data-aos-mirror="true" data-aos-once="false" src="src/nodejs.svg" alt="Javascript">
-            <h1 class="fs-2" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="1500" data-aos-mirror="true" data-aos-once="false">Node JS</h1>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Section 3 -->
-
-  <!-- Pembatas -->
-  <svg class="wave-top" viewBox="0 0 1200 250" style="background-color: #141824;padding-top: -10rem;">
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 108.306L50 114.323C100 120.34 200 132.374 300 168.476C400 204.578 500 264.749 600 246.698C700 228.647 800 132.374 900 108.306C1000 84.2382 1100 132.374 1150 156.442L1200 180.51V-8.5451e-06H1150C1100 -8.5451e-06 1000 -8.5451e-06 900 -8.5451e-06C800 -8.5451e-06 700 -8.5451e-06 600 -8.5451e-06C500 -8.5451e-06 400 -8.5451e-06 300 -8.5451e-06C200 -8.5451e-06 100 -8.5451e-06 50 -8.5451e-06H0V108.306Z" fill="#181818"/>
-  </svg>
-  <!-- End Pembatas -->
-
-    <!-- Section 4 -->
-    <section class="container6">
-      <span id="projects" style="padding-top: 3rem;visibility: hidden;">.</span>
-      <h1 style="text-align: center; font-size: 3em; padding-bottom: 2.5rem; padding-top: 2rem;  color: #cc8b65;" data-aos="fade-down" data-aos-duration="1000" data-aos-mirror="true" data-aos-once="false"> Projects</h1>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-md-12 order-sm-1">
-            <a><img src="src/Cred.png" class="gambar4 align-self-center justify-content-md-center" id="logoanimate"></a>
-          </div>
-          <div class="col-lg-6 col-md-12  align-self-center justify-content-md-center "  data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000" data-aos-mirror="true" data-aos-once="false">
-            <h1><b>CrediTion</b></h1>
-            <h3>Web Design Competition Project</h3>
-            <h3>IFest, Atma Jaya University Yogyakarta </h3>
-            <h4>3<sup>rd</sup> Place</h4>
-            <h5>CrediTion is a prototype website that serves credible information search and hoax reporting services</h5>
-            <a type="button" class="btn btn-outline-light mt-3 btn-lg" href="https://creditionwdc.netlify.app/" target="_blank">Click Here!</a>
-          </div>
-          <div class="col-lg-1">
-          </div>
-          
-          
-        </div>
-        <div class="row d-flex justify-content-center embed">
-          <div class="col-lg-6 "><iframe  class="youtube" src="https://www.youtube.com/embed/PGl09VLwggY?start=5639" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-          <div class="col-lg-6 "><iframe  class="youtube" src="https://www.youtube.com/embed/MqnBNE6dP2A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-        </div>
-        <div class="row gambar3">
-          <div class="col-lg-4 col-md-12">
-            <a><img src="src/Gatorzz.png" class="gambargator align-self-center justify-content-md-center"></a>
-          </div>
-          <div class="col-lg-1">
-          </div>
-          <div class="col-lg-6 col-md-12 align-self-center justify-content-md-center txt-2  " data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000" data-aos-mirror="true" data-aos-once="false">
-            <h1><b>Gatorzz</b></h1>
-            <h3>Basic Web End-Semester Exam Project</h3>
-            <h5>Gatorzz is an e-commerce prototype website that offers gadget sales</h5>
-            <a type="button" class="btn btn-outline-light mt-3 btn-lg" href="https://gatorzz.netlify.app/" target="_blank">Click Here!</a>
-          </div>
-        </div>
-        <div class="row d-flex justify-content-center embed">
-          <div class="col-lg-6">
-            <iframe class="youtube" src="https://www.youtube.com/embed/rEVGud1hd6o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-          
-        </div>
-      </div>
-    </section>
-    <!-- End Section 4 -->
-
-    <!-- Pembatas -->
-    <svg class="wave-top" viewBox="0 0 1200 250" style="background-color: #181818;margin-top: -1rem">
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M0 108.306L50 114.323C100 120.34 200 132.374 300 168.476C400 204.578 500 264.749 600 246.698C700 228.647 800 132.374 900 108.306C1000 84.2382 1100 132.374 1150 156.442L1200 180.51V-8.5451e-06H1150C1100 -8.5451e-06 1000 -8.5451e-06 900 -8.5451e-06C800 -8.5451e-06 700 -8.5451e-06 600 -8.5451e-06C500 -8.5451e-06 400 -8.5451e-06 300 -8.5451e-06C200 -8.5451e-06 100 -8.5451e-06 50 -8.5451e-06H0V108.306Z" fill="#141824"/>
-    </svg>
-    <!-- End Pembatas -->
-
-    <!-- Section 5 -->
-    <section class="container7">
-      <span id="contact" style="padding-top: 3rem;visibility: hidden;">.</span>
-      <h1 style="text-align: center; font-size: 3em; padding-top: 2rem;  color: #cc8b65;"  data-aos="fade-down" data-aos-duration="1000" data-aos-mirror="true" data-aos-once="false"> Contact Me</h1>
-        <div class="container">
-          <hr style="height: 0.5rem; width: 15rem;background-color: gray;" class="mx-auto" >
-          <br>
-          <div class="row contactus">
-            <div class="col-md-5 my-auto "  data-aos="fade-down" data-aos-delay="200" data-aos-duration="1000" data-aos-mirror="true" data-aos-once="false">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45464.97912166412!2d107.5274734358314!3d-6.895276556631268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e5bcc42c65a1%3A0x605801389270c6e9!2sCimahi%20Selatan%2C%20Cimahi%20City%2C%20West%20Java!5e0!3m2!1sen!2sid!4v1650670884092!5m2!1sen!2sid" id="maps" allowfullscreen="" loading="lazy"></iframe>            
-            </div>
-            <div class="col-md-6 formcontact" data-aos="fade-down" data-aos-delay="200" data-aos-duration="1000" data-aos-mirror="true" data-aos-once="false">
-                <div class="text-start ">
-                  <form id="myForm2" name="Portfolio">
-                    <div class="mb-3">
-                      <label for="Email" class="form-label khusus1" >Alamat Email</label>
-                      <input type="email" class="form-control khusus1"  name="email" required>
-                      <div id="emailHelp" class="form-text khusus1">Kami tidak akan menyebarkan email anda</div>
+                        <a class="navbar-brand d-flex align-items-center" href="#">
+                            <img src="img/Yehezkiel.png" alt="Logo"
+                                class="logo-size">
+                            <div class="ps-3 mt-1">
+                                <h4>Tutorial Bersama YZ</h4>
+                            </div>
+                        </a>
                     </div>
-                    <div class="mb-3">
-                      <label for="Name" class="form-label khusus1">Nama Lengkap</label>
-                      <input type="text" class="form-control khusus1" id="name" name="name" required>
-                    </div>
-                    <div class="mb-3">
-                      <label for="country" class="form-label khusus1">Negara</label>
-                      <select id="country" class="form-select khusus1" name="country" class="mb-3" required>
-                        <option value="">--- Pilih Negara ---</option>
-                        <option value="Indonesia">Indonesia</option>
-                        <option value="Malaysia">Malaysia</option>
-                        <option value="Singapura">Singapura</option>
-                        <option value="Australia">Australia</option>
-                        <option value="Negara Lain">Negara Lain</option>
-                      </select>
-                    </div>
-                    <div class="mb-3">
-                      <label for="massages1" class="form-label khusus1">Tulis Pesan</label>
-                      <textarea class="form-control khusus1" id="massages1" rows="5" name="message" style="overflow:auto;resize: none;" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-outline-light" id="buttonsatu2">
-                      Kirim
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
                     </button>
-                    <!-- Modal -->
-                    <script>
-                      const form1 = document.getElementById('myForm2');
-                      $('#myForm2').on('submit', function(e) {
-                        e.preventDefault();
-                        $('#modal3').modal('show');
-                      
-                    });
+                    <div class="collapse navbar-collapse " id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#"><h5>Home</h5></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#videotutor"><h5>Video</h5></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#penjelasan"><h5>Penjelasan</h5></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"  href="#"><h5>Contact Me</h5></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <div class="container hehe">
+            <div class="row d-flex align-items-center justify-content-center ukur mx-auto">
+                <div class="col-md-8">
+                    <h1 class="judul_awal py-1">Mari Belajar Bootstrap</h1>
+                    <h2 class="py-1 judul-tengah">Membuat Portfolio Sederhana</h2>
+                    <h5 class="jelas py-1">Kesempatan kali ini saya akan membagikan tutorial membuat sebuah website sederhana
+                        menggunakan Bootstrap 5. Tema kali ini adalah membuat sebuah portfolio sederhana. Portfolio ini
+                        berfungsi untuk menunjukkan hasil karya, keterampilan, pendidikan dan pengalaman kita.</h5>
+                    <a class="button-lanjut py-1" href="#videotutor">
+                        <h5 class="mt-2">Belajar Lebih Lanjut</h5>
+                    </a>
+                </div>
+                <div class="col-md-4 order-md-4">
+                    <img  src="img/logo_bs.png" alt="Logo Bootstrap" class="logo_bs mx-auto ">
+                </div>
+            </div>
+    </section>
 
-                      const scriptURL = 'https://script.google.com/macros/s/AKfycbxqPXRgO_ekRfv3_JExWbsgdcEq4xbwaKCU_Q-udveQg2X1LFPrIcMxlfLlw8a9kauKjg/exec'
-                      const form = document.forms['Portfolio']
+    <!-- Wave -->
+    <svg class="wave-top gelombang" viewBox="0 0 1200 250">
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M0 108.306L50 114.323C100 120.34 200 132.374 300 168.476C400 204.578 500 264.749 600 246.698C700 228.647 800 132.374 900 108.306C1000 84.2382 1100 132.374 1150 156.442L1200 180.51V-8.5451e-06H1150C1100 -8.5451e-06 1000 -8.5451e-06 900 -8.5451e-06C800 -8.5451e-06 700 -8.5451e-06 600 -8.5451e-06C500 -8.5451e-06 400 -8.5451e-06 300 -8.5451e-06C200 -8.5451e-06 100 -8.5451e-06 50 -8.5451e-06H0V108.306Z"
+          fill="skyblue"
+        />
+      </svg>
+    <!-- Wave -->
+      
+    <section class="vid" id="videotutor" >
+        <div class="container">
+            <h1 class="judul">Video Tutorial</h1>
+            <iframe class="vid-ukur" src="https://www.youtube.com/embed/1QpzFOEc1WM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+    </section>
 
-                      form.addEventListener('submit', e => {
-                        e.preventDefault()
-                        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                          .then(response => console.log('Success!', response))
-                          .catch(error => console.error('Error!', error.message))
-                        form1.reset();
-                      })
-                    </script>
+    <section class="pjlsn" id="penjelasan" >
+        <div class="container py-2">
+            <div class="row peringatan d-flex justify-content-center mx-auto">
+                <div class="col-md-1 d-flex align-items-center">
+                    <img src="img/warning.png" alt="bahaya" class="warning mx-auto">
+                </div>
+                <div class="col-md-11  d-flex align-items-center">
+                    <h6 class="peringat my-auto">Sebelum mempelajari bootstrap, diharapkan untuk mempelajari terlebih dahulu struktur HTML dan CSS.</h6>
+                </div>
+            </div>
+            <div class="row d-flex def my-4 ">
+                <div class="col-md-5 ">
+                    <img src="img/bs1.png" alt="bootstrap" class="bs1">
+                </div>
+                <div class="col-md-7 d-flex align-items-center" >                
+                    <h5 class="justify">Bootstrap adalah <i>framework</i> atau rangka kerja HTML, CSS, JavaScript yang banyak dipakai untuk mendesain sebuah <i>website</i> dengan <i>responsive</i>. Bootstrap memberikan kemudahan kepada penguna dengan desain yang menarik. </h5>
+                </div>
+            </div>
+            <div class="row d-flex def my-4 ">
+                <div class="col-md-7 d-flex align-items-center" >                
+                    <h5 class="justify">Framework Bootstrap bersifat <i>open source</i> dan diciptakan pada tahun 2011 oleh Mark Otto dan Jacob Thornton dari Twitter. Itulah mengapa dahulu Bootstrap dinamakan Twitter Blueprint. </h5>
+                </div>
+                <div class="col-md-5 ">
+                    <img src="img/twitter-bootstrap.jpg" alt="twitter-bootstrap" class="bs1">
+                </div>
+            </div>
+        </div>
+    </section>
 
-                  </form>
+    <section>
+        <div class="cpsin">
+        <h1 class="judul">Struktur dasar</h1>
+        <div class="container  mb-4 ">
+          <div class="row bord-cont mx-auto">
+            <div class="col-md-11"></div>
+            <div class="col-md-1 pt-3">
+              <button type="button " style="z-index: 100" class="btn btn-dark ms-4 nankanan" id="button1" onclick="CopyToClipboard('div1')">Copy</button>
+              <!-- Toast -->
+              <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                  <div class="toast-header">
+                    <img src="img/Yehezkiel.png" class="rounded me-2" style="width: 40px" alt="..." />
+                    <strong class="me-auto">Yehezkiel David Setiawan</strong>
+                    <button type="button" class="btn-close pe-3" data-bs-dismiss="toast" aria-label="Close"></button>
+                  </div>
+                  <div class="toast-body"><h6>Data telah tersalin</h6></div>
                 </div>
               </div>
             </div>
-            <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content" style="color: black;text-align:center;background-color: #6ebce4; border-radius: 30px;">
-                  <div class="modal-body">
-                    
-                    <img src="src/thanks.gif" class="w-50" style="margin: 0 auto;margin-bottom: 1rem;">
-                    <h5>Pesan Anda telah diterima oleh sistem dan akan segera saya balas.</h5>
-                    <div class="text-end pe-2 pb-2">
-                      <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Close</button>
+         
+            <div class="container test">
+              <div class="row">
+                <div class="col-md-12" style="margin-top: -3rem; z-index: -1; overflow-x: hidden" id="div1">
+                  <pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line ms-4"><span class="cl"><span class="cp">&lt;!doctype html&gt;</span>
+                  </span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">"en"</span><span class="p">&gt;</span>
+                  </span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+                  </span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">"utf-8"</span><span class="p">&gt;</span>
+                  </span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">name</span><span class="o">=</span><span class="s">"viewport"</span> <span class="na">content</span><span class="o">=</span><span class="s">"width=device-width, initial-scale=1"</span><span class="p">&gt;</span>
+                  </span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Bootstrap demo<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+                  </span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">link</span> <span class="na">href</span><span class="o">=</span><span class="s">"https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"</span> <span class="na">rel</span><span class="o">=</span><span class="s">"stylesheet"</span>  <span class="na">crossorigin</span><span class="o">=</span><span class="s">"anonymous"</span><span class="p">&gt;</span>
+                  </span></span><span class="line"><span class="cl">  <span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+                  </span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+                  </span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>Hello, world!<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+                  </span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">"https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"</span>  <span class="na">crossorigin</span><span class="o">=</span><span class="s">"anonymous"</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+                  </span></span><span class="line"><span class="cl">  <span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+                  </span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+                  </span></span></code></pre>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    </section>
+
+    <section class="faq" id="faq">
+        <h1 class="judul"><i>Frequenty Asked Question</i></h1>
+        <div class="container">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Apa kegunaan atau manfaat dari Bootstrap?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        Kegunaan Bootstrap pada pengambangan <i>website</i> adalah sebagai rangka kerja untuk membuat tampilan <i>website</i> menjadi <i>responsive</i>.
+                        <ul>
+                            <li>Menciptakan <i>website mobile friendly</i></li>
+                            <li>Memudahkan pengembang untuk <i>resize</i> gambar pada <i>website</i></li>
+                            <li>Menambahkan elemen-elemen pada <i>website</i> dengan mudah dan cepat</li>
+                            <li>Membuat <i>website</i> lebih interaktif</li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Kelebihan dalam menggunakan bootstrap
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        Berikut beberapa kelebihan Bootstrap yang membuatnya sebagai salah satu <i>framework</i> paling populer di dunia :
+                        <ul>
+                            <li>Ramah untuk pemula</li>
+                            <li><i>Grid system</i> yang canggih</li>
+                            <li>Kompabilitas dengan <i>web browser</i> yang baru</li>
+                            <li>Bersifat <i>open source</i></li>
+                            <li>Kebebasan kostumisasi pada <i>website</i></li>
+                            <li>Rutin diperbaharui</li>
+                            <li>Tersedia dokumentasi yang lengkap</li>
+                            <li>Memiliki komunitas yang aktif dan lengkap</li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Kekurangan Bootstrap
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">                       
+                        Berikut beberapa kelemahan Bootstrap :
+                        <ul>
+                            <li>Elemen banyak digunakan oleh pengembang <i>website</i> lain</li>
+                            <li>Dapat memperlambat kinerja <i>website</i></li>
+                            <li>Memperlambat proses belajar</li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                  <div class="brands">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col">
+                          <div class="brands_slider_container">
+                            <div class="owl-carousel owl-theme brands_slider pt-4">
+                              <div class="owl-item px-4">
+                                <div class="brands_item d-flex flex-column justify-content-center"><img class="brand-size" src="img/html.svg" alt="" /></div>
+                              </div>
+                              <div class="owl-item px-4">
+                                <div class="brands_item d-flex flex-column justify-content-center"><img class="brand-size" src="img/css.png" alt="" /></div>
+                              </div>
+                              <div class="owl-item px-4">
+                                <div class="brands_item d-flex flex-column justify-content-center"><img class="brand-size" src="img/javascript.svg" alt="" /></div>
+                              </div>
+                              <div class="owl-item px-4">
+                                <div class="brands_item d-flex flex-column justify-content-center"><img class="brand-size" src="img/bootstrap.svg" alt="" /></div>
+                              </div>
+                              <div class="owl-item px-4">
+                                <div class="brands_item d-flex flex-column justify-content-center"><img class="brand-size" src="img/jquery.png" alt="" /></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
         </div>
     </section>
-    <!-- End Section 5 -->
 
-    <!-- Footer -->
-    <footer class="bg-dark text-center text-lg-start">
-      <!-- Copyright -->
-      <div class="text-center p-1 text-white">
-        <!-- Grid container -->
-        <div class="container p-4">
-          <!--Grid row-->
-          <div class="row">
-            <!--Grid column-->
-            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase">WhatsApp</h5>
-              <a href="http://wa.me/6289507647137" target="_blank" style="text-decoration: none;font-size: 1.2em;color: #0f67e9;">7317467059826+</a>
-              
+    <section>
+            <!-- Wave -->
+    <svg class="wave-top" viewBox="0 0 1200 250" style="background-color: #1f1209;margin-top:-1rem; margin-bottom: -8rem; padding-bottom: 10rem">
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M0 108.306L50 114.323C100 120.34 200 132.374 300 168.476C400 204.578 500 264.749 600 246.698C700 228.647 800 132.374 900 108.306C1000 84.2382 1100 132.374 1150 156.442L1200 180.51V-8.5451e-06H1150C1100 -8.5451e-06 1000 -8.5451e-06 900 -8.5451e-06C800 -8.5451e-06 700 -8.5451e-06 600 -8.5451e-06C500 -8.5451e-06 400 -8.5451e-06 300 -8.5451e-06C200 -8.5451e-06 100 -8.5451e-06 50 -8.5451e-06H0V108.306Z"
+          fill="white"
+        />
+      </svg>
+      <!-- Wave -->
+  
+        <footer class="text-center text-white mt-3">
+            <!-- Grid container -->
+            <div class="container pt-1">
+              <!-- Section: Social media -->
+              <section class="mb-1">
+                <!-- Discord -->
+                <a class="btn btn-link btn-floating btn-lg text-white m-1" href="https://discordapp.com/users/705312106488135681" target="_blank" role="button" data-mdb-ripple-color="dark"><i class="fab fa-discord"></i></a>
+                <!-- Google -->
+                <a class="btn btn-link btn-floating btn-lg text-white m-1" href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=yehezkieldavid2006@gmail.com&tf=1" target="_blank" role="button" data-mdb-ripple-color="dark"
+                  ><i class="fab fa-google"></i
+                ></a>
+                <!-- Instagram -->
+                <a class="btn btn-link btn-floating btn-lg text-white m-1" href="https://www.instagram.com/syntax._error/" target="_blank" role="button" data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
+                <!-- Linkedin -->
+                <a class="btn btn-link btn-floating btn-lg text-white m-1" href="https://www.linkedin.com/in/yehezkiel-david-setiawan" target="_blank" role="button" data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i></a>
+                <!-- Github -->
+                <a class="btn btn-link btn-floating btn-lg text-white m-1" href="https://github.com/CriticalSyntaxError" target="_blank" role="button" data-mdb-ripple-color="dark"><i class="fab fa-github"></i></a>
+              </section>
+              <!-- Section: Social media -->
             </div>
-            <!--Grid column-->
+            <!-- Grid container -->
       
-            <!--Grid column-->
-            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase">Line</h5>
-              <a style="text-decoration: none;font-size: 1.2em;color: #0f67e9;">mathenthusiastic</a>
+            <!-- Copyright -->
+            <div class="text-center text-white pb-2" style="background-color: #1f1209; font-size: 16px; line-height: 1">
+              <h5 id="quotes" style="padding-top: 1rem"></h5>
+              <p id="author" style="padding-bottom: 1rem"></p>
+              <p>© 2022 Copyright : Yehezkiel David Setiawan</p>
             </div>
-            <!--Grid column-->
-      
-            <!--Grid column-->
-            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase">Instagram</h5>
-              <a href="https://www.instagram.com/syntax._error/" target="_blank" style="text-decoration: none;font-size: 1.2em;color: #0f67e9;">syntax._error</a>
-             
-            </div>
-            <!--Grid column-->
-      
-            <!--Grid column-->
-            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase">Telegram</h5>
-              <a href=" https://t.me/yehezkieldavid" target="_blank" style="text-decoration: none;font-size: 1.2em;color: #0f67e9;">yehezkieldavid/1172607486</a>
-            </div>
-            <!--Grid column-->
-          </div>
-          <!--Grid row-->
-        </div>
-        <!-- Grid container -->
-      
-        <!-- Copyright -->
-        <div class="text-center p-1">
-          <h5><a href="https://saweria.co/SyntaxError" target="_blank" style="text-decoration: none; ">Boleh dong berbagi, buat beli kopi <i class="fa-solid fa-mug-hot"></i></a></h5> 
-          <h5>© 2022 Copyright Yehezkiel David Setiawan</h5>
-        </div>
-      </div>
-    
-      <!-- Copyright -->
-    </footer>
-    <!-- End Footer -->
+            <!-- Copyright -->
+          </footer>
+    </section>
 
 
-    <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="script/home.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="script/anime.min.js"></script>
+    <script src="script/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <!-- Vanta Back -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
     <script>
-      AOS.init();
+        VANTA.BIRDS({
+            el: "#hero",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            backgroundColor: 0x87ceeb,
+            birdSize: 1.00,
+            separation: 100.00,
+            alignment: 40.00,
+            cohesion: 30.00,
+            quantity: 3.00
+        })
     </script>
-    <script src="script/three.r119.min.js"></script>
-    <script src="script/vanta.birds.min.js"></script>
-    <script>
-      let loader = document.getElementById("preloader");
-      loader.classList.add("animasi");
-      setTimeout(function(){
-        loader.style.display = "none";
-      },3000);
-      
-      </script>
-    <script>
-      VANTA.BIRDS({
-        el: "#bg1",
-        mouseControls: true,
-        touchControls: true,
-        gyroControls: false,
-        minHeight: 200.00,
-        minWidth: 200.00,
-        scale: 1.00,
-        scaleMobile: 1.00,
-        backgroundColor: '#141824',
-        wingSpan: 50.00,
-        speedLimit: 5.00,
-        separation: 50.00,
-        alignment: 30.00,
-        cohesion: 25.00,
-        quantity: 4.00
-      })
-    </script>
-  </body>
+</body>
+
 </html>
